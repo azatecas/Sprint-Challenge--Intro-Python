@@ -49,3 +49,7 @@ class Car(Ground_Vehicle):
         super().__init__()
         pass
 
+class Motorcycle(Ground_Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
