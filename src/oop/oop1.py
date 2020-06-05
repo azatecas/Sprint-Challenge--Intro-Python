@@ -23,10 +23,29 @@ class Vehicle:
     pass
 
 #Base Class for Starship and Airplane
-class FlightVehicle:
-    pass
+class Flight_Vehicle(Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
 
 #base class for Car and Motorcycle
-class GroundVehicle:
-    pass
+class Ground_Vehicle(Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
+
+class Airplane(Flight_Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
+
+class Starship(Flight_Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
+
+class Car(Ground_Vehicle):
+    def __init__(self):
+        super().__init__()
+        pass
 
